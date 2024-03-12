@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#details.horizontal {
+  background-color: crimson; 
+  overflow: hidden;
+}
+
+#details.horizontal div {
+  float: left;
+ 
+  width: 25%; 
+  text-align: center; 
+ 
+}
+#featured-property {
+  text-align: center;
+}
+
+.property-content {
+  width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.property-content p {
+  margin-bottom: 20px;
+}
+nav {
+  text-align: center;
+  
+}
+nav a{
+  background-color: grey;
+  padding: 5px;
+}
+h1{
+  text-align: center;
+}
